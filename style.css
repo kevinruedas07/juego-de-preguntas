@@ -1,32 +1,57 @@
- body {
-    margin: 500;
-    padding: 100;
-    background-color: steelblue;
-    background-image: url(https://i.ibb.co/Ksh05ww/IMG-20220915-162221.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    font-size: 110%;
-  }
-
-
- a {
-    display: block;
-    width: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 80;
-    border-radius: 15px;
-    margin: 60px 550px;
-    padding: 13px 60px;
-    background-color: #12480afd;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}    
-     a :hover {
-    background-color: rgb(11, 213, 11);
-    border: 2PX solid #0bdfaa;
-    color: #000000;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+
+body{
+    background: #FFF;
+}
+
+.contenedor{
+    background-image: url(https://i.ibb.co/Ksh05ww/IMG-20220915-162221.jpg);
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    height: 100vh;
+    background-size: cover;
+    font-size: 120%;
+    
+}
+
+.btn{
+    border: 3px solid rgba(100, 100, 100, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80px;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFF;
+    background-size: 300%;
+    transition: 0.6s;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background-position: right;
+}
+
+.bnt1{
+    background-image: linear-gradient(to left,#00B7DA,#161569,#00B7DA);
+}
+.bnt2{
+    background-image: linear-gradient(to left,#A950A1,#2D3A54,#A950A1);
+}
+.bnt3{
+    background-image: linear-gradient(to left,#FFCAE3,#FF499D,#FFCAE3);
+}
+.bnt4{
+    background-image: linear-gradient(to left,#FF5733,#B81B57,#FF5733);
+}
+.bnt5{
+    background-image: linear-gradient(to left,#00B7DA,rgb(32, 161, 71),#00B7DA);
+}
+
