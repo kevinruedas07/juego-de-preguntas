@@ -21,18 +21,17 @@ body{
 
 .btn{
     border: 3px solid rgba(100, 100, 100, 0.1);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 20px;
-    width: 80px;
+    width: 100px;
     font-family: 'poppins',sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 8px;
     cursor: pointer;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     background-size: 300%;
     transition: 0.6s;
     text-decoration: none;
-    
 }
 
 .btn:hover{
@@ -40,18 +39,17 @@ body{
 }
 
 .bnt1{
-    background-image: linear-gradient(to left,#00B7DA,#161569,#00B7DA);
+    background-image: linear-gradient(to left,#1f7914ee,#5fce54,#1f7914ee);
 }
 .bnt2{
-    background-image: linear-gradient(to left,#A950A1,#2D3A54,#A950A1);
+    background-image: linear-gradient(to left,#5fce54,#1f7914ee,#5fce54);
 }
 .bnt3{
-    background-image: linear-gradient(to left,#FFCAE3,#FF499D,#FFCAE3);
+    background-image: linear-gradient(to left,#1f7914ee,#5fce54,#1f7914ee);
 }
 .bnt4{
-    background-image: linear-gradient(to left,#FF5733,#B81B57,#FF5733);
+    background-image: linear-gradient(to left,#5fce54,#1f7914ee,#5fce54);
 }
 .bnt5{
-    background-image: linear-gradient(to left,#00B7DA,rgb(32, 161, 71),#00B7DA);
+    background-image: linear-gradient(to left,#1f7914ee,#5fce54,#1f7914ee);
 }
-
